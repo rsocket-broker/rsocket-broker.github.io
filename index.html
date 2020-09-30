@@ -1,3 +1,354 @@
-<!doctype html><html><head><meta name=generator content="Hugo 0.75.1"><title>RSocket Routing :: RSocket Routing</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2020-09-30T04:21:21 UTC"><meta name=description content><title>RSocket Routing :: RSocket Routing</title><link rel="shortcut icon" href=/images/favicon.png type=image/x-icon><link href=/vendor/bootstrap/bootstrap-4.5.2-dist/css/bootstrap.min.css rel=stylesheet><link rel=preload as=style href=/fonts/Montserrat/Montserrat.css><link rel=stylesheet href=https://rsocket-routing.github.com/sass/layout.css><link rel=stylesheet href=https://rsocket-routing.github.com/css/style.main.css><link rel=stylesheet href=https://rsocket-routing.github.com/css/style.menu.css><link href=/vendor/FontAwesome/fontawesome-free-5.14.0-web/css/all.min.css rel=stylesheet><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/notice.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/tabs.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/panel.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/columns.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/children.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/attachments.css><link rel=stylesheet type=text/css href=https://rsocket-routing.github.com/sass/shortcodes/alert.css><link rel=stylesheet href=/css/docport.css><script src=/vendor/jquery/jquery-3.5.1.min.js></script><script src=/vendor/bootstrap/bootstrap-4.5.2-dist/js/bootstrap.min.js crossorigin=anonymous></script><script src=/js/docport.js></script><script type=text/javascript>var baseurl="https:\/\/rsocket-routing.github.com";</script></head><body data-url=/><style type=text/css>#debug{display:-webkit-box;display:-ms-flexbox;display:flex;line-height:3.5rem;margin-bottom:.35rem;padding:0 2rem;position:fixed;left:0;right:0;top:0;top:0;min-height:150px;background-color:#fff;border:3px solid red;z-index:10000;word-wrap:all;overflow:auto}</style><header><div><div class=burger><a href=javascript:void(0); style=font-size:15px onclick="$('article > aside').toggleClass('responsive')">&#9776;</a></div><div><a class=baselink href=https://rsocket-routing.github.com>RSocket Routing</a></div><nav class=shortcuts><li role><a href=/docs/ rel=noopener>Documentation</a></li><li role><a href=https://github.com/rsocket-routing/ rel=noopener>Github</a></li><li role><a href=https://rsocket.io/ rel=noopener>RSocket</a></li></nav></div></header><article><aside><div class=search><div class=searchbox><input data-search-input id=search-by type=text placeholder="Type to search..."></div><script type=text/javascript src=/vendor/lunr/lunr.min.js></script><script type=text/javascript src=/vendor/auto-complete/auto-complete.js></script><link href=/vendor/auto-complete/auto-complete.css rel=stylesheet><script type=text/javascript>var baseurl="https:\/\/rsocket-routing.github.com";</script><script type=text/javascript src=/js/search.js></script></div><div id=close_menu><a href=javascript:void(0); style=font-size:15px onclick="$('article > aside').toggleClass('responsive')"><i class="fa fa-lg fa-times"></i></a></div><ul class=menu><li data-nav-id=https://rsocket-routing.github.com/docs/ class="dd-item
-item_level_$level"><a href=/docs/>Docs</a></li></ul></aside><section class=page><nav id=ariane aria-label=breadcrumb><ol class=ariane><li class=active>RSocket Routing</li></ol></nav><h1>RSocket Routing</h1><div class=jump-to-section><span onclick="$h=$(this);$h.next('nav').slideToggle(100,function(){$h.children('i').attr('class',function(){return $h.next('nav').is(':visible')?'fas fa-chevron-down':'fas fa-chevron-right';});});"><span class="fas fa-align-right"></span>Jump to Section
-<i class="fas fa-chevron-right"></i></span><nav id=TableOfContents></nav></div><div class=content><p>TODO: Project Description</p></div><div class=chevrons><a class=next href=/docs/ title=Docs style=margin-right:0><div><p>Next page</p><label>Docs</label></div><i class="fas fa-arrow-right" style=font-size:1.7em></i></a></div></section><section class=right-menu><div class=TableOfContents><label><i class="fas fa-align-right"></i>&nbsp;&nbsp;What's on this page</label><nav><ul><li><a href=/>RSocket Routing</a></li></ul></nav><nav id=TableOfContents></nav></div><div class=Actions><nav><ul><li><a href=https://rsocket-routing.github.comadmin/#/collections/pages/entries/_index target=blank><i class="fab fa-github"></i>Improve this page</a></li><li><i class="fas fa-calendar"></i>Last update on 29 September 2020</li></ul></nav></div></section></article><footer>Create a content/_layout/footer/_index.md file to customize the footer content !</footer></body></html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="generator" content="Hugo 0.75.1" />
+    <title>
+	RSocket Routing :: RSocket Routing
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2020-09-30T04:25:02 UTC">
+<meta name="description" content="">
+
+
+
+<title>RSocket Routing :: RSocket Routing</title>
+
+<link rel="shortcut icon" href='/images/favicon.png' type="image/x-icon" />
+
+
+<link href='/vendor/bootstrap/bootstrap-4.5.2-dist/css/bootstrap.min.css' rel="stylesheet"> 
+
+
+<link rel="preload" as="style" href='/fonts/Montserrat/Montserrat.css'>
+<link rel="stylesheet" href='https://rsocket-routing.github.com/sass/layout.css'>
+<link rel="stylesheet" href='https://rsocket-routing.github.com/css/style.main.css'>
+<link rel="stylesheet" href='https://rsocket-routing.github.com/css/style.menu.css'>
+<link href='/vendor/FontAwesome/fontawesome-free-5.14.0-web/css/all.min.css' rel="stylesheet"> 
+
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/notice.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/tabs.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/panel.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/columns.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/children.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/attachments.css'>
+<link rel="stylesheet" type="text/css" href='https://rsocket-routing.github.com/sass/shortcodes/alert.css'>
+
+<link rel="stylesheet" href='/css/docport.css'>
+
+
+<script src='/vendor/jquery/jquery-3.5.1.min.js'></script>
+<script src='/vendor/bootstrap/bootstrap-4.5.2-dist/js/bootstrap.min.js' crossorigin="anonymous"></script>
+
+<script src='/js/docport.js'></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/rsocket-routing.github.com";
+</script>
+
+
+
+
+
+    
+  </head>
+
+  <body data-url="/"
+
+  class="">
+
+<style type="text/css">
+  #debug{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 3.5rem;
+    margin-bottom: .35rem;
+    padding: 0 2rem;
+    position: fixed;
+    left: 0;      right: 0;     top: 0;
+   
+    top:0px;
+    
+    min-height: 150px;
+
+    background-color: white;
+    border: 3px solid red;
+    z-index: 10000 ;
+    word-wrap: all;
+    overflow: auto;
+  }
+</style>
+ 
+
+
+    
+    
+    <header style="">
+        <div>
+    
+    <div class="burger ">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
+    </div>
+    
+
+    <div>
+
+		
+	
+			
+		
+	    	<a class='baselink' href='https://rsocket-routing.github.com'>RSocket Routing</a>
+	  	
+	</div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/docs/"  rel="noopener">
+                  Documentation
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://github.com/rsocket-routing/"  rel="noopener">
+                  Github
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://rsocket.io/"  rel="noopener">
+                  RSocket
+                </a>
+            </li>
+    </nav>
+
+</div>
+    </header>
+    
+
+    <article>
+      
+      <aside class="">
+        
+<div class="search">
+	<div class="searchbox">
+	  <input data-search-input id="search-by" type="text" placeholder="Type to search...">
+	</div>
+	<script type="text/javascript" src="/vendor/lunr/lunr.min.js"></script>
+	<script type="text/javascript" src="/vendor/auto-complete/auto-complete.js"></script>
+	<link href="/vendor/auto-complete/auto-complete.css" rel="stylesheet">
+	<script type="text/javascript">
+	  
+	      var baseurl = "https:\/\/rsocket-routing.github.com";
+	  
+	</script>
+	<script type="text/javascript" src="/js/search.js"></script>
+</div>
+
+		
+	
+			
+		
+	    	
+	  	
+	<div id="close_menu">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">
+      <i class="fa fa-lg fa-times"></i>
+  </a>
+</div>
+
+<ul class="menu">
+
+    <li data-nav-id="https://rsocket-routing.github.com/docs/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+        
+      
+          <a href="/docs/">Docs</a>
+      
+    </li>
+    
+
+
+
+</ul>
+
+		
+	
+			
+		
+	    	
+	  	
+	
+      </aside>
+      
+
+      <section class="page ">
+      
+	 
+		
+    
+    
+    <nav id="ariane" aria-label="breadcrumb">
+      <ol class="ariane">
+        
+  
+    <li class="active">
+      
+        RSocket Routing
+      
+    </li>
+
+      </ol>
+    </nav>
+    
+    
+
+    
+		
+        
+		
+		
+		
+		
+		
+		
+		
+
+		
+			<h1>RSocket Routing</h1>
+        
+
+		
+										
+		
+
+		
+	
+
+	
+	
+	<div class="jump-to-section">
+		<span onclick="$h = $(this);$h.next('nav').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('nav').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+  			<span class="fas fa-align-right"></span>
+  			Jump to Section
+  			<i style=";" class="fas fa-chevron-right"></i>
+		</span>
+		<nav id="TableOfContents"></nav>
+	</div>
+	
+	
+
+
+
+
+
+
+	<div class="content">
+	    <p>TODO: Project Description</p>
+
+		
+</div>
+
+
+
+
+
+
+	 
+	<div class="chevrons">
+		<a class="next" href="/docs/" title="Docs" style="margin-right: 0px;">
+            <div>
+                <p>Next page</p>
+                <label>Docs</label>
+            </div>
+            <i class="fas fa-arrow-right" style="font-size: 1.7em"></i></a>
+	</div>
+	
+	
+
+      </section>
+
+      
+      
+      <section class="right-menu ">
+      
+	 
+		
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="TableOfContents">
+    <label><i class="fas fa-align-right"></i>&nbsp;&nbsp;What&#39;s on this page</label>
+    <nav>
+        <ul >
+            <li><a href="/">RSocket Routing</a></li>
+        </ul>
+    </nav>
+    <nav id="TableOfContents"></nav>
+</div>
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="Actions">
+	<nav>
+		<ul>
+				
+		    
+		    
+		    
+		    <li>
+		    	
+		        <a href="https://rsocket-routing.github.comadmin/#/collections/pages/entries/_index" target="blank">
+		        <i class="fab fa-github"></i>
+		        Improve this page</a>
+		    </li>
+		    
+		    
+			
+		      <li>
+		          <i class='fas fa-calendar'></i>
+		          Last update on 29 September 2020
+		      </li>
+		    
+		    
+
+    	</ul>
+	</nav>
+    
+</div>
+	
+
+      </section>
+      
+    </article>
+    
+    
+    <footer>
+      
+
+		
+	
+			
+		
+	    	Create a content/_layout/footer/_index.md file to customize the footer content !
+	  	
+	
+    </footer>
+    
+
+
+
+  </body>
+</html>
