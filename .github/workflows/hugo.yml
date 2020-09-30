@@ -1,4 +1,5 @@
-name: github pages
+# https://github.com/marketplace/actions/hugo-setup
+name: RSocket Routing Website
 
 on:
   push:
